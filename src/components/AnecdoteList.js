@@ -5,7 +5,6 @@ import Filter from './Filter'
 import { setNotification } from '../reducers/notificationReducer'
 import { updateAnecdote } from '../reducers/anecdoteReducer'
 
-import anecdoteService from '../services/anecdotes'
 
 const AnecdoteList = (props) => {
   const filterText = useSelector(state => state.filter)
